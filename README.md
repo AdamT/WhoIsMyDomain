@@ -3,6 +3,8 @@ This class combines into pairs all the words you'd consider in naming your start
 
 ## How to use:
 1. Download WhoIsMyDomain.rb
+2. Install whois gem:
+    gem install whois
 2. Add favorite names and words to @fav_names
 3. Add favorite domain extensions to @fav_extensions
 4. Uncomment #unless name_first == name_second (line 16) if you don't want doubles.
